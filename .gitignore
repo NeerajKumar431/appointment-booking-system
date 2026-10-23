@@ -29,5 +29,23 @@ build/
 !**/src/main/**/build/
 !**/src/test/**/build/
 
+### Secrets ###
+.env
+.env.*
+*.pem
+*.key
+*.jks
+
+### Logs ###
+*.log
+logs/
+
+### Frontend (for later) ###
+node_modules/
+
+### OS ###
+.DS_Store
+Thumbs.db
+
 ### VS Code ###
 .vscode/
